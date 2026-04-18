@@ -1,0 +1,23 @@
+{
+  "name": "la-biblia-backend",
+  "version": "1.0.0",
+  "description": "Backend for La Biblia - Ciudad Maderas knowledge platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seedDatabase.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.7",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
